@@ -9,8 +9,8 @@ current_ctc = st.number_input("Enter your current CTC (Annual)", value=500000.0,
 avg_hike = st.number_input("Enter Average Hike Percentage (%)", value=8.0, step=0.5)
 current_age = st.number_input("Enter your current age", value=26, step=1)
 professional_tax = st.number_input("Enter your states Professional tax", value=200, step=50)
-employer_pf=st.number_input("Enter your employers PF",value=1800,steps=100)
-employee_pf=st.number_input("Enter your employee PF",value=1700,steps=100)
+employer_pf=st.number_input("Enter your employers pf",value=1800,step=100)
+employee_pf=st.number_input("Enter your employee pf",value=1700,step=100)
 
 # Convert hike to a multiplier
 hike_multiplier = 1 + (avg_hike / 100)
