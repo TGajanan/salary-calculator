@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 
 # Page title
+st.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxrFHTOh_5bkm7Tc4Szy7dHwlEDsYc1CRlA&s', caption="Salary Calculator", width=None)
 st.title("Salary Projection for Next 5 Years")
-st.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxrFHTOh_5bkm7Tc4Szy7dHwlEDsYc1CRlA&s', caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
 
 # Inputs: Current CTC and Average Hike %
 current_ctc = st.number_input("Enter your current CTC (Annual)", value=500000.0, step=10000.0)
