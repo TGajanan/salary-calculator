@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Page title
-st.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxrFHTOh_5bkm7Tc4Szy7dHwlEDsYc1CRlA&s', caption="Salary Calculator", width=None)
+st.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxrFHTOh_5bkm7Tc4Szy7dHwlEDsYc1CRlA&s')
 st.title("Salary Projection for Next 5 Years")
 
 # Inputs: Current CTC and Average Hike %
