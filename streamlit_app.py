@@ -34,7 +34,7 @@ Inhand_sal=(salary_yearly / 12) - professional_tax - employer_pf - employee_pf
 for i in range(5):
     salary_data["Sr. No"].append(i + 1)
     salary_data["Salary Yearly"].append(round(salary_yearly, 2))
-    salary_data["Salary per month in Hand"].append(round(Inhand_sal), 2))
+    salary_data["Salary per month in Hand"].append(round(Inhand_sal), 2)
     # salary_data["Salary per month"].append(round((salary_yearly / 12), 2))
     salary_data["Year"].append(year + i)
     salary_data["Hike Percentage"].append(round(avg_hike / 100, 2) if i != 0 else 0)
